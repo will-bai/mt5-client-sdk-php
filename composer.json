@@ -1,0 +1,21 @@
+{
+    "name": "will-bai/mt5-client-sdk-php",
+    "description": "PHP SDK for MT5 Client",
+    "keywords": ["mt5", "thrift"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "will bai",
+            "email": "will.bai.au@gmail.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+        "php": ">=5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "mt5\\client\\": "src/"
+        }
+    }
+}
